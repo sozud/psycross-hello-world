@@ -1,0 +1,3 @@
+clone PsyCross
+get 'https://github.com/AliveTeam/SDL2_win32_dev_mirror/files/8710940/SDL2-devel-2.0.22-VC.zip'
+cmake -B "./build" -DCMAKE_SOURCE_DIR="./" -DSDL2_DIR=".\SDL2-devel-2.0.22-VC\SDL2-2.0.22\"
